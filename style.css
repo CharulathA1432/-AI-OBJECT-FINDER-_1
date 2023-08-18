@@ -1,39 +1,31 @@
-body
-{
+body{
+    background-position: center;
     background-size: cover;
 }
-
-#status, #number_of_objects, #status
-{
-    font-size: 18px;
-}
-
-.copy_right_footer
-{
-    position: fixed;
-    font-size: larger;
-    bottom: 0;
-    line-height: 2;
-    color: brown;
-    background-color: cornflowerblue;
-    width: 100%;
-    text-align: center;
-}
-
-.heading
-{
+.header{
     width: 100%;
     margin: 0px;
-    font-size: 30px;
+    font-size: large;
+}
+.input_class{
+    margin: 5px;
+    border-radius: 7px;
+    width: 25%;
+    color: green;
     background-color: greenyellow;
-    color: maroon;
+    border: 4px ridge grey;
 }
-
-canvas
-{
-    border: 2px solid white;
+.object_name_label{
+    font-weight: bold;
+    font-size: 20px;
+}
+canvas{
     border-radius: 10px;
-    margin-top: 130px;
-    box-shadow: 5px 5px 5px white;
+    background-color: red;
+    box-shadow: 7px 7px 7px orange;
 }
-
+p{
+    color: black;
+    margin-bottom: 0px;
+    font-size: small;
+}
